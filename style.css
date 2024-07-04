@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background: linear-gradient(to right,rgba(255, 138, 8,.75),rgb(255, 101, 0,.75),rgb(196, 12, 12,.75)) ;
+  }
+  
+  .sun{
+    height: 159px;
+    width: 150px;
+    background:linear-gradient(to right,rgb(255, 101, 0),rgb(196, 12, 12)) ;
+    position: relative;
+    left: 85%;
+    top: 30px;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px#C40C0C;
+  }
+  .big-container{
+    display: flex;
+  }
+  .container-1{
+    height: 400px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    left: 40%;
+    top: 373.5px;
+    border-bottom: none;
+    
+  }
+  .anti{
+    height: 60px;
+    width: 5px;
+    background-color: black;
+    position: relative;
+    left: 54.5%;
+    top: 305px;
+  }
+
+  .upper{
+    height: 10px;
+    width: 60px;
+    background-color: black;
+    position: relative;
+    left: 52%;
+    top: 365px;
+  }
+  
+  .container-1 > div{
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    margin-top: 50px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40px 40px 90px;
+    grid-auto-rows: 18px;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .container-1 > div > div{
+    background:linear-gradient(to right,#E0F2F1,#CBEFEC,#B9E8FC);
+    box-shadow: 2px 2px 2px black;
+
+  }
+
+
+  /* Code for Building No-2 */
+  .container{
+    height: 650px;
+    width: 350px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 90px;
+}
+
+.container > .grill-1{
+    height: 15px;
+    width: 385px;
+    background-color: #543310;
+    position: relative;
+    right: 11.5px;
+    border: 3px solid black;
+}
+
+.container > .floor-1{
+    height: 30px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container > .grill{
+    height: 10px;
+    width: 385px;
+    background-color: #543310;
+    position: relative;
+    right: 11.5px;
+    border: 3px solid black;
+}
+
+.container > .floor-1 > div{
+    height: 30px;
+    width: 20px;
+    background:linear-gradient(to right,#E0F2F1,#CBEFEC,#B9E8FC);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.container > .floor{
+    height: 80px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container > .floor > .small-g{
+    height: 60px;
+    width: 45px;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 4px;
+}
+.container > .floor > .small-g > div{
+  background:linear-gradient(to right,#E0F2F1,#CBEFEC,#B9E8FC);
+
+}
+
+.container > .floor > .small-g > .border-1{
+   border-radius: 15px 0px 0px 0px ;
+   
+}
+.container > .floor > .small-g > .border-2{
+    border-radius: 0px 15px 0px 0px ;
+}
+.container > .floor > .big-g{
+    height: 70px;
+    width: 60px;
+    background-color: black;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+}
+
+.container > .floor > .big-g > div{
+  background:linear-gradient(to right,#E0F2F1,#CBEFEC,#B9E8FC);
+
+}
+
+.ground-floor{
+    height: 145px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: black;
+    padding-left: 10px; 
+    padding-right: 10px;
+
+}
+
+.ground-floor > div{
+    height: 130px;
+    width: 65px;
+    background:linear-gradient(to right,#E0F2F1,#CBEFEC,#B9E8FC);
+    margin-top: 10px;
+}
+
+.ground-floor > div > .hor-strip{
+    width: 65px;
+    height: 10px;
+    background-color: black;
+    margin-top: 30px;
+}
